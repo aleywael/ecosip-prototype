@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import type { LucideIcon } from 'lucide-react';
 import { createRoot } from 'react-dom/client';
-import { ArrowDownLeft, ArrowLeft, ArrowRight, BarChart3, Bell, BottleWine, Check, CheckCircle2, ChevronDown, CircleHelp, Clock3, Coffee, Gift, History, Home, Info, Leaf, LogOut, Menu, Minus, Plus, QrCode, Recycle, RotateCcw, ScanLine, Settings2, ShieldCheck, Sparkles, Ticket, TrendingUp, Users, Wallet, X, Zap } from 'lucide-react';
+import { ArrowDownLeft, ArrowLeft, ArrowRight, BarChart3, Bell, Wine, Check, CheckCircle2, ChevronDown, CircleHelp, Clock3, Coffee, Gift, History, Home, Info, Leaf, LogOut, Menu, Minus, Plus, QrCode, Recycle, RotateCcw, ScanLine, Settings2, ShieldCheck, Sparkles, Ticket, TrendingUp, Users, Wallet, X, Zap } from 'lucide-react';
 import './style.css';
 
 type Page = 'home'|'recycle'|'rewards'|'activity'|'admin';
